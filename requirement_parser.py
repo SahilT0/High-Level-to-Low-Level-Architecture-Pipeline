@@ -1,8 +1,4 @@
-# requirement_parser.py
-
 def parse_requirement(requirement):
-    # This is a mocked version. You can later upgrade it to use OpenAI/HuggingFace.
-
     return {
         "modules": [
             "User Management",

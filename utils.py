@@ -4,7 +4,6 @@ import os
 import json
 
 def save_output(result, output_dir="output"):
-    # Create output folder if not exists
     os.makedirs(output_dir, exist_ok=True)
 
     # Save modules
