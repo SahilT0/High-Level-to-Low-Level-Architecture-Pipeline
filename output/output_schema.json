@@ -1,0 +1,15 @@
+{
+    "User": {
+        "id": "int",
+        "name": "string",
+        "email": "string"
+    },
+    "Task": {
+        "id": "int",
+        "title": "string",
+        "description": "text",
+        "assigned_to": "User.id",
+        "status": "enum [To-Do, In Progress, Done]",
+        "due_date": "date"
+    }
+}
